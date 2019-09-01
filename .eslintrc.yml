@@ -12,4 +12,10 @@ parserOptions:
   sourceType: module
 plugins:
   - '@typescript-eslint'
-rules: {}
+rules:
+  indent:
+    - error
+    - 4
+  semi:
+    - error
+    - always
