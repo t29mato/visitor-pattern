@@ -2,7 +2,7 @@ import TeacherAcceptor from './TeacherAcceptor';
 import Home from './Home';
 import Teacher from './Teacher';
 
-export default class NobiHome extends Home implements TeacherAcceptor {
+export default class NobiHome extends Home {
     private childTestScore: number = 0;
 
     getChildTestScore (): number {

@@ -2,7 +2,7 @@ import TeacherAcceptor from './TeacherAcceptor';
 import Home from './Home';
 import Teacher from './Teacher';
 
-export default class DekisugiHome extends Home implements TeacherAcceptor {
+export default class DekisugiHome extends Home {
     private childTestScore: number = 100;
 
     getChildTestScore (): number {
