@@ -9,7 +9,7 @@ export default class GanariTeacher extends Teacher {
             console.log(`先生「テストの点数は${score}点です、優秀なお子さんですね (キラキラ)」`);
             studentHome.praisedChild();
         } else {
-            console.log(`先生「テストの点数は${score}点ですw」`);
+            console.log(`先生「テストの点数は${score}点です笑」`);
             studentHome.reprovedChild();
         }
     };
